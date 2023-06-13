@@ -7,6 +7,9 @@ body {
 
 .header {
     background-color: #1F2937;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 75px;
 }
 
 .hero-content {
@@ -17,6 +20,7 @@ body {
     font-size: 48px;
     font-weight: 900;
     color: #F9FAF8;
+    margin: 0;
 }
 
 .logo {
@@ -34,6 +38,145 @@ body {
 }
 
 #hero-img {
-    width: 150px;
-    height: 50px;
+    width: 350px;
+    height: auto;
+}
+
+.header-links {
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+    color: #F9FAF8;
+    list-style: none;
+}
+
+.hero-content {
+    display: flex;
+    padding: 50px;
+    justify-content: space-evenly;
+}
+
+.side-left {
+    display: flex;
+    max-width: 400px;
+    flex-direction: column;
+}
+
+.header h2 {
+    font-size: 18px;
+}
+
+.logo img {
+    width: 80px;
+    height: auto;
+}
+
+a {
+    text-decoration: none;
+    color: #F9FAF8;
+}
+
+ul {
+    gap: 12px;
+}
+
+p {
+    color: #E5E7EB;
+}
+
+.side-left button {
+    width: 100px;
+    height: 28px;
+    border-radius: 8px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+}
+
+.icon-content h2 {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 900;
+    text-align: center;
+}
+
+.icon-content {
+    display: flex;
+    flex-direction: column;
+    padding: 0 90px;
+}
+
+.icons {
+    display: flex;
+    flex-direction: column;
+}
+
+.icon-wrapper {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.icons img {
+    width: 100px;
+    height: auto;
+    border: solid black;
+    border-radius: 5px;
+}
+
+.icons p {
+    width: 100px;
+    text-align: center;
+    color: black;
+}
+
+.quote-content {
+    background-color: #E5E7EB;
+    padding: 60px 350px;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.name {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1f2937;
+    text-align: right;
+}
+
+.call-wrapper {
+    background-color: #E5E7EB;
+    padding: 30px 350px;
+}
+
+.call-content {
+    display: flex;
+    padding: 30px;
+    background-color: #3882F6;
+    justify-content: space-evenly;
+    border-radius: 5px;
+}
+
+.right-call {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right-call button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border-color: #F9FAF8;
+    border-radius: 5px;
+    padding: 3px 15px;
+}
+
+.left-call p, .left-call h3 {
+    margin: 0;
+}
+
+#title {
+    color: #F9FAF8;
 }
